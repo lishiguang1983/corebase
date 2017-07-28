@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\kdb.platform.commons\kdb.platform.commons.csproj" />
+    <ProjectReference Include="..\kdb.platform.models\kdb.platform.models.csproj" />
+    <ProjectReference Include="..\kdb.platform.repositorys\kdb.platform.repositorys.csproj" />
+  </ItemGroup>
+
+</Project>
